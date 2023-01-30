@@ -1,14 +1,18 @@
-Create root si folder
+Create root si folder:
+    ```
     mkdir si
     cd si
-
+    ```
 
 Clone the images or build the image:
-    clone :
+    clone:
+        ```
         docker pull amigahub/cadc-postgresql
         docker pull amigahub/cadc-haproxy
         docker pull amigahub/minoc
+        ```
     build:
+        ```
         git clone https://github.com/opencadc/docker-base
         cd docker-base/cadc-postgresql-dev
         docker build -t cadc-postgresql -f Dockerfile.pg10 .
@@ -22,10 +26,13 @@ Clone the images or build the image:
         gradle clean build -x test
         docker build -t minoc -f Dockerfile .
         cd ../../
+        ```
 
 
-setup the config : 
+setup the config :
+    ```
     git clone https://github.com/abhishekghoshhh/cadc-si-deploy
     get absoulte path of cadc-si-deploy
     set CONFIG_FOLDER to absolute path of cadc-si-deploy
     example : CONFIG_FOLDER=/Users/abhishekghosh/Desktop/E4R-final/cadc-si-deploy
+    ```
