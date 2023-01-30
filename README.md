@@ -33,3 +33,5 @@ setup the config :
     get absoulte path of cadc-si-deploy
     set CONFIG_FOLDER to absolute path of cadc-si-deploy
     example : CONFIG_FOLDER=/Users/abhishekghosh/Desktop/E4R-final/cadc-si-deploy
+
+chmod -R 777 folder_name

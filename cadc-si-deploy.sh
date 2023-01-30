@@ -2,7 +2,7 @@
 docker network create si
 
 docker run -d \
-	--name pg10db1 \
+	--name pg10db \
 	-p 5432:5432 -p 5433:5432 \
 	--net=si \
 	--volume=${CONFIG_FOLDER}/config/postgres/config:/config:ro \
