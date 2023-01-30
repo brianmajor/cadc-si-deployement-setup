@@ -12,3 +12,13 @@ docker run -d \
 	-p 8000:8000 \
 	--net=si \
 	echo:latest
+
+docker run -d \
+	--name minoc \
+	-p 8083:8080 \
+	--user tomcat:tomcat  \
+	--net=si \
+	--volume=${CONFIG_FOLDER}/config/minoc:/config:ro \
+	--volume=${CONFIG_FOLDER}/images:/images:rw \
+	--volume=${CONFIG_FOLDER}/config/certs/cadcproxy.pem:/usr/share/tomcat/.ssl/cadcproxy.pem \
+	amigahub/minoc:latest
