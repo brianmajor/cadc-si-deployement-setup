@@ -4,12 +4,10 @@ Create root si folder
 
 
 Clone the images or build the image:
-
     clone :
         docker pull amigahub/cadc-postgresql
         docker pull amigahub/cadc-haproxy
         docker pull amigahub/minoc
-
     build:
         git clone https://github.com/opencadc/docker-base
         cd docker-base/cadc-postgresql-dev
