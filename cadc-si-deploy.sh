@@ -15,7 +15,6 @@ docker run -d \
 	--user tomcat:tomcat  \
 	--net=si \
 	--volume=${CONFIG_FOLDER}/config/minoc:/config:ro \
-	--volume=${CONFIG_FOLDER}/images:/images:rw \
 	--volume=${CONFIG_FOLDER}/config/certs/cadcproxy.pem:/usr/share/tomcat/.ssl/cadcproxy.pem \
 	amigahub/minoc:latest
 
