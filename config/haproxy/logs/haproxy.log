@@ -1,0 +1,48 @@
+Jan 24 12:01:51 aea5a908a152 haproxy[45]: 172.19.0.3:59584 [24/Jan/2023:12:01:51.490] https-in/1: SSL handshake failure
+Jan 24 12:01:51 aea5a908a152 haproxy[45]: 172.19.0.3:59598 [24/Jan/2023:12:01:51.675] https-in/1: SSL handshake failure
+Jan 24 12:01:52 aea5a908a152 haproxy[45]: 172.19.0.1:38794 [24/Jan/2023:12:01:50.617] https-in~ cadc-minoc-service/minoc 65/0/1/1118/1499 500 272 - - SD-- 0/0/0/0/0 0/0 "PUT /minoc/files/TEST1:JUNK/test-file.fits HTTP/1.1"
+Jan 24 12:08:27 aea5a908a152 haproxy[45]: 172.19.0.3:49654 [24/Jan/2023:12:08:27.426] https-in/1: SSL handshake failure
+Jan 24 12:08:27 aea5a908a152 haproxy[45]: 172.19.0.3:49664 [24/Jan/2023:12:08:27.511] https-in/1: SSL handshake failure
+Jan 24 12:08:27 aea5a908a152 haproxy[45]: 172.19.0.1:49692 [24/Jan/2023:12:08:27.216] https-in~ cadc-minoc-service/minoc 68/0/1/303/576 500 272 - - SD-- 0/0/0/0/0 0/0 "PUT /minoc/files/TEST1:JUNK/test-file.fits HTTP/1.1"
+Jan 24 12:10:46 aea5a908a152 haproxy[45]: 172.19.0.3:53536 [24/Jan/2023:12:10:46.454] https-in/1: SSL handshake failure
+Jan 24 12:10:47 aea5a908a152 haproxy[45]: 172.19.0.3:53542 [24/Jan/2023:12:10:46.993] https-in/1: SSL handshake failure
+Jan 24 12:10:47 aea5a908a152 haproxy[45]: 172.19.0.1:50534 [24/Jan/2023:12:10:43.512] https-in~ cadc-minoc-service/minoc 59/0/1/3549/4031 500 272 - - SD-- 0/0/0/0/0 0/0 "PUT /minoc/files/TEST1:JUNK/test-file.fits HTTP/1.1"
+Jan 24 12:11:50 aea5a908a152 haproxy[45]: 172.19.0.3:49424 [24/Jan/2023:12:11:50.114] https-in/1: SSL handshake failure
+Jan 24 12:11:50 aea5a908a152 haproxy[45]: 172.19.0.3:49436 [24/Jan/2023:12:11:50.594] https-in/1: SSL handshake failure
+Jan 24 12:11:50 aea5a908a152 haproxy[45]: 172.19.0.1:36266 [24/Jan/2023:12:11:48.994] https-in~ cadc-minoc-service/minoc 58/0/1/1683/1751 500 272 - - SD-- 0/0/0/0/0 0/0 "PUT /minoc/files/TEST1:JUNK/test-file.fits HTTP/1.1"
+Jan 24 13:01:17 aea5a908a152 haproxy[45]: 172.19.0.3:34206 [24/Jan/2023:13:01:17.171] https-in/1: SSL handshake failure
+Jan 24 13:01:17 aea5a908a152 haproxy[45]: 172.19.0.3:34222 [24/Jan/2023:13:01:17.303] https-in/1: SSL handshake failure
+Jan 24 13:01:18 aea5a908a152 haproxy[45]: 172.19.0.1:36472 [24/Jan/2023:13:01:16.915] https-in~ cadc-minoc-service/minoc 65/0/1/423/1137 500 272 - - SD-- 0/0/0/0/0 0/0 "PUT /minoc/files/TEST1:JUNK/test-file.fits HTTP/1.1"
+Jan 24 13:03:18 aea5a908a152 haproxy[45]: 172.19.0.3:47234 [24/Jan/2023:13:03:18.182] https-in/1: SSL handshake failure
+Jan 24 13:03:18 aea5a908a152 haproxy[45]: 172.19.0.3:47242 [24/Jan/2023:13:03:18.322] https-in/1: SSL handshake failure
+Jan 24 13:03:18 aea5a908a152 haproxy[45]: 172.19.0.1:44514 [24/Jan/2023:13:03:17.923] https-in~ cadc-minoc-service/minoc 63/0/1/423/1075 500 272 - - SD-- 0/0/0/0/0 0/0 "PUT /minoc/files/TEST1:JUNK/test-file.fits HTTP/1.1"
+Jan 24 13:05:37 aea5a908a152 haproxy[45]: 172.19.0.3:51314 [24/Jan/2023:13:05:37.542] https-in/1: SSL handshake failure
+Jan 24 13:05:37 aea5a908a152 haproxy[45]: 172.19.0.3:51328 [24/Jan/2023:13:05:37.707] https-in/1: SSL handshake failure
+Jan 24 13:05:38 aea5a908a152 haproxy[45]: 172.19.0.1:58698 [24/Jan/2023:13:05:37.347] https-in~ cadc-minoc-service/minoc 62/0/1/363/1067 500 272 - - SD-- 0/0/0/0/0 0/0 "PUT /minoc/files/TEST1:JUNK/test-file.fits HTTP/1.1"
+Jan 24 13:07:23 aea5a908a152 haproxy[45]: 172.19.0.3:59644 [24/Jan/2023:13:07:23.456] https-in/1: SSL handshake failure
+Jan 24 13:07:23 aea5a908a152 haproxy[45]: 172.19.0.3:59654 [24/Jan/2023:13:07:23.532] https-in/1: SSL handshake failure
+Jan 24 13:07:24 aea5a908a152 haproxy[45]: 172.19.0.1:47826 [24/Jan/2023:13:07:23.286] https-in~ cadc-minoc-service/minoc 66/0/1/242/1223 500 272 - - SD-- 0/0/0/0/0 0/0 "PUT /minoc/files/TEST1:JUNK/test-file.fits HTTP/1.1"
+START: Tue Jan 24 13:28:28 UTC 2023
+No extra certificates to configure the CA bundle found
+Jan 24 13:28:36 bdf14bb19997 haproxy[45]: Proxy https-in started.
+Jan 24 13:29:27 bdf14bb19997 haproxy[45]: 172.19.0.3:34886 [24/Jan/2023:13:29:27.559] https-in/1: SSL handshake failure
+Jan 24 13:29:27 bdf14bb19997 haproxy[45]: 172.19.0.3:34894 [24/Jan/2023:13:29:27.859] https-in/1: SSL handshake failure
+Jan 24 13:29:28 bdf14bb19997 haproxy[45]: 172.19.0.1:46804 [24/Jan/2023:13:29:27.206] https-in~ cadc-minoc-service/minoc 81/0/16/625/1101 500 272 - - SD-- 0/0/0/0/0 0/0 "PUT /minoc/files/TEST1:JUNK/test-file.fits HTTP/1.1"
+Jan 24 13:30:37 bdf14bb19997 haproxy[45]: 172.19.0.1:33648 [24/Jan/2023:13:30:37.742] https-in~ https-in/<NOSRV> -1/-1/-1/-1/62 400 187 - - CR-- 0/0/0/0/0 0/0 "<BADREQ>"
+Jan 24 13:35:16 bdf14bb19997 haproxy[45]: 172.19.0.3:57748 [24/Jan/2023:13:35:16.931] https-in/1: SSL handshake failure
+Jan 24 13:35:17 bdf14bb19997 haproxy[45]: 172.19.0.3:57764 [24/Jan/2023:13:35:17.030] https-in/1: SSL handshake failure
+Jan 24 13:35:17 bdf14bb19997 haproxy[45]: 172.19.0.1:43972 [24/Jan/2023:13:35:16.757] https-in~ cadc-minoc-service/minoc 70/0/0/289/452 500 272 - - SD-- 0/0/0/0/0 0/0 "PUT /minoc/files/TEST1:JUNK/test-file.fits HTTP/1.1"
+START: Tue Jan 24 13:59:18 UTC 2023
+No extra certificates to configure the CA bundle found
+Jan 24 13:59:26 a1b9b7357118 haproxy[45]: Proxy https-in started.
+Jan 24 13:59:56 a1b9b7357118 haproxy[45]: 172.19.0.3:35314 [24/Jan/2023:13:59:55.043] https-in~ cadc-reg-service/reg 1006/0/1/64/1072 200 175 - - ---- 1/1/0/0/0 0/0 "GET /reg/resource-caps HTTP/1.1"
+Jan 24 13:59:57 a1b9b7357118 haproxy[45]: 172.19.0.1:42598 [24/Jan/2023:13:59:54.607] https-in~ cadc-minoc-service/minoc 88/0/19/1721/2687 500 325 - - SD-- 0/0/0/0/0 0/0 "PUT /minoc/files/TEST1:JUNK/test-file.fits HTTP/1.1"
+Jan 24 14:01:36 a1b9b7357118 haproxy[45]: 172.19.0.1:56000 [24/Jan/2023:14:01:36.081] https-in~ cadc-minoc-service/minoc 69/0/1/82/715 500 325 - - SD-- 0/0/0/0/0 0/0 "PUT /minoc/files/TEST1:JUNK/test-file.fits HTTP/1.1"
+Jan 24 14:24:39 a1b9b7357118 haproxy[45]: 172.19.0.3:38740 [24/Jan/2023:14:24:39.370] https-in~ cadc-reg-service/reg 485/0/1/19/505 200 175 - - ---- 1/1/0/0/0 0/0 "GET /reg/resource-caps HTTP/1.1"
+Jan 24 14:24:40 a1b9b7357118 haproxy[45]: 172.19.0.1:47536 [24/Jan/2023:14:24:39.049] https-in~ cadc-minoc-service/minoc 67/0/0/853/1657 500 325 - - SD-- 0/0/0/0/0 0/0 "PUT /minoc/files/TEST1:JUNK/test-file.fits HTTP/1.1"
+Jan 24 15:09:01 a1b9b7357118 haproxy[45]: 172.19.0.3:43550 [24/Jan/2023:15:09:00.896] https-in~ cadc-reg-service/reg 647/0/1/79/727 200 175 - - ---- 1/1/0/0/0 0/0 "GET /reg/resource-caps HTTP/1.1"
+Jan 24 15:09:02 a1b9b7357118 haproxy[45]: 172.19.0.1:59834 [24/Jan/2023:15:09:00.484] https-in~ cadc-minoc-service/minoc 57/0/1/1202/1857 500 325 - - SD-- 0/0/0/0/0 0/0 "PUT /minoc/files/TEST1:JUNK/test-file.fits HTTP/1.1"
+Jan 30 04:09:13 a1b9b7357118 haproxy[45]: 172.19.0.1:37184 [30/Jan/2023:04:09:06.858] https-in~ cadc-minoc-service/minoc 63/0/0/6624/6688 201 291 - - ---- 0/0/0/0/0 0/0 "PUT /minoc/files/TEST1:JUNK/test-file.fits HTTP/1.1"
+Jan 30 04:13:15 a1b9b7357118 haproxy[45]: 172.19.0.1:35384 [30/Jan/2023:04:13:15.255] https-in~ cadc-minoc-service/minoc 67/0/2/346/416 404 243 - - ---- 0/0/0/0/0 0/0 "HEAD /minoc/files/test:JUNK/test-file.fits HTTP/1.1"
+Jan 30 04:13:57 a1b9b7357118 haproxy[45]: 172.19.0.1:36102 [30/Jan/2023:04:13:57.496] https-in~ cadc-minoc-service/minoc 62/0/0/78/141 200 461 - - ---- 0/0/0/0/0 0/0 "HEAD /minoc/files/TEST1:JUNK/test-file.fits HTTP/1.1"
+Jan 30 04:58:54 a1b9b7357118 haproxy[45]: 172.19.0.1:48578 [30/Jan/2023:04:58:53.830] https-in~ cadc-minoc-service/minoc 66/0/1/877/944 201 291 - - ---- 0/0/0/0/0 0/0 "PUT /minoc/files/TEST2:JUNK/test-file.fits HTTP/1.1"
