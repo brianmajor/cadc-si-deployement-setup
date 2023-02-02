@@ -31,7 +31,9 @@ setup the config :
 
     git clone https://github.com/abhishekghoshhh/cadc-si-deploy
     get absoulte path of cadc-si-deploy
-    set CONFIG_FOLDER to absolute path of cadc-si-deploy
-    example : CONFIG_FOLDER=/Users/abhishekghosh/Desktop/E4R-final/cadc-si-deploy
+    set CONFIG_FOLDER to absolute path of cadc-si-deploy/config
+    example : CONFIG_FOLDER=/Users/abhishekghosh/Desktop/E4R-final/cadc-si-deploy/config
+    set DATA_FOLDER to absolute path of cadc-si-deploy/config
+    example : DATA_FOLDER=/Users/abhishekghosh/Desktop/E4R-final/cadc-si-deploy/data
 
 chmod -R 777 folder_name
