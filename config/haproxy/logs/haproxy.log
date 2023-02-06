@@ -53,3 +53,4 @@ Feb  2 04:13:39 38f358daac49 haproxy[45]: 172.19.0.1:57598 [02/Feb/2023:04:13:33
 Feb  2 04:13:53 38f358daac49 haproxy[45]: 172.19.0.1:58854 [02/Feb/2023:04:13:53.194] https-in~ cadc-minoc-service/minoc 65/0/1/67/133 200 461 - - ---- 0/0/0/0/0 0/0 "HEAD /minoc/files/TEST1:JUNK/test-file.fits HTTP/1.1"
 Feb  2 04:16:28 38f358daac49 haproxy[45]: 172.19.0.1:45578 [02/Feb/2023:04:16:26.398] https-in~ cadc-minoc-service/minoc 70/0/1/1631/1702 500 333 - - ---- 0/0/0/0/0 0/0 "PUT /minoc/files/TEST1:JUNK/test-file.fits HTTP/1.1"
 Feb  2 04:26:14 38f358daac49 haproxy[45]: 172.19.0.1:59416 [02/Feb/2023:04:26:13.222] https-in~ cadc-minoc-service/minoc 65/0/1/1400/1466 500 333 - - ---- 0/0/0/0/0 0/0 "PUT /minoc/files/TEST1:JUNK/test-file.fits HTTP/1.1"
+Feb  2 10:07:38 38f358daac49 haproxy[45]: 172.19.0.1:40996 [02/Feb/2023:10:07:36.078] https-in~ cadc-minoc-service/minoc 63/0/0/1934/1997 500 333 - - ---- 0/0/0/0/0 0/0 "PUT /minoc/files/TEST1:JUNK/test-file.fits HTTP/1.1"

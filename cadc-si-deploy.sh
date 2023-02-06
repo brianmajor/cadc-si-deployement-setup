@@ -12,7 +12,6 @@ docker run -d \
 docker run -d \
 	--name minoc \
 	-p 8083:8080 \
-	--user tomcat:tomcat  \
 	--net=si \
 	--volume=${CONFIG_FOLDER}/minoc:/config:ro \
 	--volume=${DATA_FOLDER}/minoc:/data:rw \

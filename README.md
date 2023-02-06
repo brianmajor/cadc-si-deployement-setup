@@ -37,3 +37,17 @@ setup the config :
     example : DATA_FOLDER=/Users/abhishekghosh/Desktop/E4R-final/cadc-si-deploy/data
 
 chmod -R 777 folder_name
+
+
+Refference links:
+
+    https://gitlab.com/jsancheziaa/cadc-storage-inventory
+
+Github links:
+
+    https://github.com/opencadc/docker-base
+    https://github.com/opencadc/storage-inventory
+
+Confluence links:
+
+    https://confluence.skatelescope.org/display/SRCSC/2023-01-26++SRC+ART+System+Demo+17.3
