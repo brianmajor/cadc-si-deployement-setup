@@ -39,3 +39,9 @@ Check that kubectl is properly configured by getting the cluster state:
 
 If kubectl cluster-info returns the url response but you can't access your cluster, to check whether it is configured properly, use:
     kubectl cluster-info dump
+
+alias kubectl-e4r='kubectl --kubeconfig=/Users/abhishekghosh/Desktop/E4R-final/cadc-si-deploy/kubernetes/e4r-kubeconfig'
+
+
+FROM --platform=linux/amd64 cadc-tomcat:latest
+--platform is needed

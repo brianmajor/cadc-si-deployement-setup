@@ -54,3 +54,163 @@ Feb  2 04:13:53 38f358daac49 haproxy[45]: 172.19.0.1:58854 [02/Feb/2023:04:13:53
 Feb  2 04:16:28 38f358daac49 haproxy[45]: 172.19.0.1:45578 [02/Feb/2023:04:16:26.398] https-in~ cadc-minoc-service/minoc 70/0/1/1631/1702 500 333 - - ---- 0/0/0/0/0 0/0 "PUT /minoc/files/TEST1:JUNK/test-file.fits HTTP/1.1"
 Feb  2 04:26:14 38f358daac49 haproxy[45]: 172.19.0.1:59416 [02/Feb/2023:04:26:13.222] https-in~ cadc-minoc-service/minoc 65/0/1/1400/1466 500 333 - - ---- 0/0/0/0/0 0/0 "PUT /minoc/files/TEST1:JUNK/test-file.fits HTTP/1.1"
 Feb  2 10:07:38 38f358daac49 haproxy[45]: 172.19.0.1:40996 [02/Feb/2023:10:07:36.078] https-in~ cadc-minoc-service/minoc 63/0/0/1934/1997 500 333 - - ---- 0/0/0/0/0 0/0 "PUT /minoc/files/TEST1:JUNK/test-file.fits HTTP/1.1"
+START: Mon Feb 13 09:37:21 UTC 2023
+No extra certificates to configure the CA bundle found
+START: Mon Feb 13 09:38:13 UTC 2023
+No extra certificates to configure the CA bundle found
+Feb 13 09:38:20 1d81977c9d8d haproxy[45]: Proxy https-in started.
+Feb 13 09:39:09 1d81977c9d8d haproxy[45]: 172.19.0.1:43454 [13/Feb/2023:09:39:09.447] https-in/1: SSL handshake failure
+Feb 13 09:39:09 1d81977c9d8d haproxy[45]: 172.19.0.1:43448 [13/Feb/2023:09:39:09.447] https-in/1: SSL handshake failure
+Feb 13 09:39:09 1d81977c9d8d haproxy[45]: 172.19.0.1:43470 [13/Feb/2023:09:39:09.499] https-in/1: SSL handshake failure
+Feb 13 09:39:10 1d81977c9d8d haproxy[45]: 172.19.0.1:43476 [13/Feb/2023:09:39:10.569] https-in/1: SSL handshake failure
+Feb 13 09:39:10 1d81977c9d8d haproxy[45]: 172.19.0.1:43472 [13/Feb/2023:09:39:10.569] https-in/1: SSL handshake failure
+Feb 13 09:39:10 1d81977c9d8d haproxy[45]: 172.19.0.1:43492 [13/Feb/2023:09:39:10.627] https-in/1: SSL handshake failure
+Feb 13 09:39:15 1d81977c9d8d haproxy[45]: 172.19.0.1:59248 [13/Feb/2023:09:39:15.645] https-in/1: SSL handshake failure
+Feb 13 09:39:15 1d81977c9d8d haproxy[45]: 172.19.0.1:59238 [13/Feb/2023:09:39:15.645] https-in/1: SSL handshake failure
+Feb 13 09:39:15 1d81977c9d8d haproxy[45]: 172.19.0.1:59262 [13/Feb/2023:09:39:15.696] https-in/1: SSL handshake failure
+Feb 13 09:39:16 1d81977c9d8d haproxy[45]: 172.19.0.1:59264 [13/Feb/2023:09:39:16.799] https-in/1: SSL handshake failure
+Feb 13 09:39:16 1d81977c9d8d haproxy[45]: 172.19.0.1:59270 [13/Feb/2023:09:39:16.799] https-in/1: SSL handshake failure
+Feb 13 09:39:19 1d81977c9d8d haproxy[45]: 172.19.0.1:59280 [13/Feb/2023:09:39:19.458] https-in/1: SSL handshake failure
+Feb 13 09:39:19 1d81977c9d8d haproxy[45]: 172.19.0.1:59292 [13/Feb/2023:09:39:19.458] https-in/1: SSL handshake failure
+Feb 13 09:39:19 1d81977c9d8d haproxy[45]: 172.19.0.1:59304 [13/Feb/2023:09:39:19.550] https-in/1: Connection closed during SSL handshake
+Feb 13 09:39:19 1d81977c9d8d haproxy[45]: 172.19.0.1:59312 [13/Feb/2023:09:39:19.599] https-in~ cadc-baldur-service/<NOSRV> 33/-1/-1/-1/48 503 212 - - SC-- 0/0/0/0/0 0/0 "GET /baldur HTTP/1.1"
+Feb 13 09:39:19 1d81977c9d8d haproxy[45]: 172.19.0.1:59324 [13/Feb/2023:09:39:19.673] https-in/1: SSL handshake failure
+Feb 13 09:39:19 1d81977c9d8d haproxy[45]: 172.19.0.1:59338 [13/Feb/2023:09:39:19.676] https-in~ https-in/<NOSRV> -1/-1/-1/-1/1 503 212 - - SC-- 0/0/0/0/0 0/0 "GET /favicon.ico HTTP/1.1"
+Feb 13 09:39:23 1d81977c9d8d haproxy[45]: 172.19.0.1:39548 [13/Feb/2023:09:39:23.717] https-in/1: SSL handshake failure
+Feb 13 09:39:23 1d81977c9d8d haproxy[45]: 172.19.0.1:39562 [13/Feb/2023:09:39:23.717] https-in/1: SSL handshake failure
+Feb 13 09:39:23 1d81977c9d8d haproxy[45]: 172.19.0.1:39568 [13/Feb/2023:09:39:23.752] https-in/1: SSL handshake failure
+Feb 13 09:39:23 1d81977c9d8d haproxy[45]: 172.19.0.1:39580 [13/Feb/2023:09:39:23.755] https-in~ https-in/<NOSRV> -1/-1/-1/-1/7 503 212 - - SC-- 0/0/0/0/0 0/0 "GET /mionoc HTTP/1.1"
+Feb 13 09:39:23 1d81977c9d8d haproxy[45]: 172.19.0.1:39586 [13/Feb/2023:09:39:23.780] https-in/1: SSL handshake failure
+Feb 13 09:39:23 1d81977c9d8d haproxy[45]: 172.19.0.1:39600 [13/Feb/2023:09:39:23.790] https-in~ https-in/<NOSRV> -1/-1/-1/-1/2 503 212 - - SC-- 0/0/0/0/0 0/0 "GET /favicon.ico HTTP/1.1"
+Feb 13 09:39:27 1d81977c9d8d haproxy[45]: 172.19.0.1:39618 [13/Feb/2023:09:39:27.234] https-in/1: SSL handshake failure
+Feb 13 09:39:27 1d81977c9d8d haproxy[45]: 172.19.0.1:39602 [13/Feb/2023:09:39:27.234] https-in/1: SSL handshake failure
+Feb 13 09:39:27 1d81977c9d8d haproxy[45]: 172.19.0.1:39628 [13/Feb/2023:09:39:27.278] https-in/1: SSL handshake failure
+Feb 13 09:39:27 1d81977c9d8d haproxy[45]: 172.19.0.1:39642 [13/Feb/2023:09:39:27.288] https-in~ cadc-minoc-service/minoc 8/0/2/52/70 302 125 - - ---- 0/0/0/0/0 0/0 "GET /minoc HTTP/1.1"
+Feb 13 09:39:27 1d81977c9d8d haproxy[45]: 172.19.0.1:39652 [13/Feb/2023:09:39:27.361] https-in/1: SSL handshake failure
+Feb 13 09:39:27 1d81977c9d8d haproxy[45]: 172.19.0.1:39668 [13/Feb/2023:09:39:27.363] https-in~ cadc-minoc-service/minoc 1/0/0/22/23 200 5743 - - ---- 0/0/0/0/0 0/0 "GET /minoc/ HTTP/1.1"
+Feb 13 09:39:27 1d81977c9d8d haproxy[45]: 172.19.0.1:39700 [13/Feb/2023:09:39:27.399] https-in/1: SSL handshake failure
+Feb 13 09:39:27 1d81977c9d8d haproxy[45]: 172.19.0.1:39684 [13/Feb/2023:09:39:27.399] https-in/1: SSL handshake failure
+Feb 13 09:39:27 1d81977c9d8d haproxy[45]: 172.19.0.1:39738 [13/Feb/2023:09:39:27.403] https-in/1: SSL handshake failure
+Feb 13 09:39:27 1d81977c9d8d haproxy[45]: 172.19.0.1:39726 [13/Feb/2023:09:39:27.403] https-in/1: SSL handshake failure
+Feb 13 09:39:27 1d81977c9d8d haproxy[45]: 172.19.0.1:39716 [13/Feb/2023:09:39:27.403] https-in/1: SSL handshake failure
+Feb 13 09:39:27 1d81977c9d8d haproxy[45]: 172.19.0.1:39708 [13/Feb/2023:09:39:27.399] https-in/1: SSL handshake failure
+Feb 13 09:39:27 1d81977c9d8d haproxy[45]: 172.19.0.1:39762 [13/Feb/2023:09:39:27.406] https-in/1: SSL handshake failure
+Feb 13 09:39:27 1d81977c9d8d haproxy[45]: 172.19.0.1:39750 [13/Feb/2023:09:39:27.406] https-in/1: SSL handshake failure
+Feb 13 09:39:27 1d81977c9d8d haproxy[45]: 172.19.0.1:39794 [13/Feb/2023:09:39:27.408] https-in~ cadc-minoc-service/minoc 1/0/1/112/114 404 947 - - ---- 5/5/5/5/0 0/0 "GET /minoc/swagger-ui/css/screen.css HTTP/1.1"
+Feb 13 09:39:27 1d81977c9d8d haproxy[45]: 172.19.0.1:39824 [13/Feb/2023:09:39:27.441] https-in~ cadc-minoc-service/minoc 1/0/1/79/82 404 956 - - ---- 4/4/4/3/0 0/0 "GET /minoc/swagger-ui/lib/jquery-1.8.0.min.js HTTP/1.1"
+Feb 13 09:39:27 1d81977c9d8d haproxy[45]: 172.19.0.1:39808 [13/Feb/2023:09:39:27.441] https-in~ cadc-minoc-service/minoc 2/0/0/80/82 404 958 - - ---- 3/3/3/3/0 0/0 "GET /minoc/swagger-ui/lib/jquery.slideto.min.js HTTP/1.1"
+Feb 13 09:39:27 1d81977c9d8d haproxy[45]: 172.19.0.1:39778 [13/Feb/2023:09:39:27.408] https-in~ cadc-minoc-service/minoc 35/0/0/81/118 404 946 - - ---- 5/5/2/0/0 0/0 "GET /minoc/swagger-ui/css/reset.css HTTP/1.1"
+Feb 13 09:39:27 1d81977c9d8d haproxy[45]: 172.19.0.1:39836 [13/Feb/2023:09:39:27.524] https-in/1: SSL handshake failure
+Feb 13 09:39:27 1d81977c9d8d haproxy[45]: 172.19.0.1:39842 [13/Feb/2023:09:39:27.527] https-in/1: SSL handshake failure
+Feb 13 09:39:27 1d81977c9d8d haproxy[45]: 172.19.0.1:39848 [13/Feb/2023:09:39:27.527] https-in/1: SSL handshake failure
+Feb 13 09:39:27 1d81977c9d8d haproxy[45]: 172.19.0.1:39776 [13/Feb/2023:09:39:27.406] https-in~ cadc-minoc-service/minoc 4/0/1/115/124 404 951 - - ---- 5/5/1/0/0 0/0 "GET /minoc/swagger-ui/css/typography.css HTTP/1.1"
+Feb 13 09:39:27 1d81977c9d8d haproxy[45]: 172.19.0.1:39798 [13/Feb/2023:09:39:27.441] https-in~ cadc-minoc-service/minoc 2/0/0/83/88 404 957 - - ---- 4/4/0/0/0 0/0 "GET /minoc/swagger-ui/lib/jquery.wiggle.min.js HTTP/1.1"
+Feb 13 09:39:27 1d81977c9d8d haproxy[45]: 172.19.0.1:39854 [13/Feb/2023:09:39:27.530] https-in/1: SSL handshake failure
+Feb 13 09:39:27 1d81977c9d8d haproxy[45]: 172.19.0.1:39862 [13/Feb/2023:09:39:27.530] https-in/1: SSL handshake failure
+Feb 13 09:39:27 1d81977c9d8d haproxy[45]: 172.19.0.1:39864 [13/Feb/2023:09:39:27.530] https-in/1: SSL handshake failure
+Feb 13 09:39:27 1d81977c9d8d haproxy[45]: 172.19.0.1:39870 [13/Feb/2023:09:39:27.530] https-in/1: SSL handshake failure
+Feb 13 09:39:27 1d81977c9d8d haproxy[45]: 172.19.0.1:39876 [13/Feb/2023:09:39:27.534] https-in/1: SSL handshake failure
+Feb 13 09:39:27 1d81977c9d8d haproxy[45]: 172.19.0.1:39892 [13/Feb/2023:09:39:27.534] https-in/1: SSL handshake failure
+Feb 13 09:39:27 1d81977c9d8d haproxy[45]: 172.19.0.1:39906 [13/Feb/2023:09:39:27.534] https-in/1: SSL handshake failure
+Feb 13 09:39:27 1d81977c9d8d haproxy[45]: 172.19.0.1:39920 [13/Feb/2023:09:39:27.534] https-in/1: SSL handshake failure
+Feb 13 09:39:27 1d81977c9d8d haproxy[45]: 172.19.0.1:39930 [13/Feb/2023:09:39:27.534] https-in/1: SSL handshake failure
+Feb 13 09:39:27 1d81977c9d8d haproxy[45]: 172.19.0.1:39946 [13/Feb/2023:09:39:27.534] https-in/1: SSL handshake failure
+Feb 13 09:39:27 1d81977c9d8d haproxy[45]: 172.19.0.1:39958 [13/Feb/2023:09:39:27.541] https-in/1: SSL handshake failure
+Feb 13 09:39:27 1d81977c9d8d haproxy[45]: 172.19.0.1:39964 [13/Feb/2023:09:39:27.541] https-in/1: SSL handshake failure
+Feb 13 09:39:27 1d81977c9d8d haproxy[45]: 172.19.0.1:39976 [13/Feb/2023:09:39:27.541] https-in/1: SSL handshake failure
+Feb 13 09:39:27 1d81977c9d8d haproxy[45]: 172.19.0.1:40024 [13/Feb/2023:09:39:27.546] https-in~ cadc-minoc-service/minoc 3/0/1/40/44 404 954 - - ---- 5/5/5/5/0 0/0 "GET /minoc/swagger-ui/lib/jsoneditor.min.js HTTP/1.1"
+Feb 13 09:39:27 1d81977c9d8d haproxy[45]: 172.19.0.1:39990 [13/Feb/2023:09:39:27.541] https-in~ cadc-minoc-service/minoc 5/0/4/41/50 404 950 - - ---- 4/4/4/2/0 0/0 "GET /minoc/swagger-ui/lib/lodash.min.js HTTP/1.1"
+Feb 13 09:39:27 1d81977c9d8d haproxy[45]: 172.19.0.1:39980 [13/Feb/2023:09:39:27.541] https-in~ cadc-minoc-service/minoc 5/0/4/41/50 404 952 - - ---- 3/3/3/2/0 0/0 "GET /minoc/swagger-ui/lib/backbone-min.js HTTP/1.1"
+Feb 13 09:39:27 1d81977c9d8d haproxy[45]: 172.19.0.1:40020 [13/Feb/2023:09:39:27.546] https-in~ cadc-minoc-service/minoc 3/0/1/41/45 404 946 - - ---- 2/2/2/2/0 0/0 "GET /minoc/swagger-ui/lib/marked.js HTTP/1.1"
+Feb 13 09:39:27 1d81977c9d8d haproxy[45]: 172.19.0.1:40004 [13/Feb/2023:09:39:27.541] https-in~ cadc-minoc-service/minoc 5/0/4/42/51 404 951 - - ---- 2/2/1/1/0 0/0 "GET /minoc/swagger-ui/lib/js-yaml.min.js HTTP/1.1"
+Feb 13 09:39:27 1d81977c9d8d haproxy[45]: 172.19.0.1:40018 [13/Feb/2023:09:39:27.546] https-in~ cadc-minoc-service/minoc 3/0/1/45/50 404 953 - - ---- 5/5/4/4/0 0/0 "GET /minoc/swagger-ui/lib/swagger-oauth.js HTTP/1.1"
+Feb 13 09:39:27 1d81977c9d8d haproxy[45]: 172.19.0.1:40052 [13/Feb/2023:09:39:27.594] https-in~ cadc-minoc-service/minoc 2/0/1/34/37 404 960 - - ---- 4/4/4/4/0 0/0 "GET /minoc/swagger-ui/lib/highlight.9.1.0.pack.js HTTP/1.1"
+Feb 13 09:39:27 1d81977c9d8d haproxy[45]: 172.19.0.1:40050 [13/Feb/2023:09:39:27.594] https-in~ cadc-minoc-service/minoc 2/0/1/35/38 404 942 - - ---- 3/3/3/3/0 0/0 "GET /minoc/swagger-ui/swagger-ui.js HTTP/1.1"
+Feb 13 09:39:27 1d81977c9d8d haproxy[45]: 172.19.0.1:40060 [13/Feb/2023:09:39:27.595] https-in~ cadc-minoc-service/minoc 3/0/0/36/39 404 969 - - ---- 2/2/2/2/0 0/0 "GET /minoc/swagger-ui/lib/highlight.9.1.0.pack_extended.js HTTP/1.1"
+Feb 13 09:39:27 1d81977c9d8d haproxy[45]: 172.19.0.1:40038 [13/Feb/2023:09:39:27.594] https-in~ cadc-minoc-service/minoc 1/0/1/40/42 404 956 - - ---- 1/1/1/1/0 0/0 "GET /minoc/swagger-ui/lib/handlebars-2.0.0.js HTTP/1.1"
+Feb 13 09:39:27 1d81977c9d8d haproxy[45]: 172.19.0.1:40034 [13/Feb/2023:09:39:27.593] https-in~ cadc-minoc-service/minoc 3/0/1/41/45 404 957 - - ---- 0/0/0/0/0 0/0 "GET /minoc/swagger-ui/lib/jquery.ba-bbq.min.js HTTP/1.1"
+Feb 13 09:39:27 1d81977c9d8d haproxy[45]: 172.19.0.1:40070 [13/Feb/2023:09:39:27.639] https-in/1: SSL handshake failure
+Feb 13 09:39:27 1d81977c9d8d haproxy[45]: 172.19.0.1:40080 [13/Feb/2023:09:39:27.641] https-in~ cadc-minoc-service/minoc 1/0/0/20/21 404 946 - - ---- 0/0/0/0/0 0/0 "GET /minoc/swagger-ui/css/print.css HTTP/1.1"
+Feb 13 09:39:27 1d81977c9d8d haproxy[45]: 172.19.0.1:40086 [13/Feb/2023:09:39:27.667] https-in/1: SSL handshake failure
+Feb 13 09:39:27 1d81977c9d8d haproxy[45]: 172.19.0.1:40098 [13/Feb/2023:09:39:27.669] https-in~ cadc-minoc-service/minoc 1/0/0/8/9 404 957 - - ---- 0/0/0/0/0 0/0 "GET /minoc/swagger-ui/images/favicon-32x32.png HTTP/1.1"
+Feb 13 09:39:27 1d81977c9d8d haproxy[45]: 172.19.0.1:40106 [13/Feb/2023:09:39:27.681] https-in/1: SSL handshake failure
+Feb 13 09:39:27 1d81977c9d8d haproxy[45]: 172.19.0.1:40118 [13/Feb/2023:09:39:27.683] https-in~ cadc-minoc-service/minoc 0/0/1/5/6 404 957 - - ---- 0/0/0/0/0 0/0 "GET /minoc/swagger-ui/images/favicon-16x16.png HTTP/1.1"
+START: Mon Feb 13 09:41:17 UTC 2023
+No extra certificates to configure the CA bundle found
+Feb 13 09:41:24 1d81977c9d8d haproxy[45]: Proxy https-in started.
+START: Mon Feb 13 09:44:46 UTC 2023
+No extra certificates to configure the CA bundle found
+Feb 13 09:44:53 1d81977c9d8d haproxy[45]: Proxy https-in started.
+Feb 13 09:48:55 1d81977c9d8d haproxy[45]: 172.19.0.1:57678 [13/Feb/2023:09:48:53.281] https-in~ cadc-minoc-service/minoc 101/0/20/1902/2024 200 461 - - ---- 0/0/0/0/0 0/0 "HEAD /minoc/files/TEST1:JUNK/test-file.fits HTTP/1.1"
+START: Mon Feb 13 09:58:03 UTC 2023
+No extra certificates to configure the CA bundle found
+Feb 13 09:58:10 1d81977c9d8d haproxy[45]: Proxy https-in started.
+Feb 13 09:58:28 1d81977c9d8d haproxy[45]: 172.19.0.1:33974 [13/Feb/2023:09:58:28.077] https-in/1: SSL handshake failure
+Feb 13 09:58:28 1d81977c9d8d haproxy[45]: 172.19.0.1:33980 [13/Feb/2023:09:58:28.077] https-in/1: SSL handshake failure
+Feb 13 09:58:28 1d81977c9d8d haproxy[45]: 172.19.0.1:33990 [13/Feb/2023:09:58:28.209] https-in~ cadc-baldur-service/<NOSRV> 43/-1/-1/-1/46 503 212 - - SC-- 0/0/0/0/0 0/0 "GET /baldur/ HTTP/1.1"
+Feb 13 09:58:28 1d81977c9d8d haproxy[45]: 172.19.0.1:34004 [13/Feb/2023:09:58:28.283] https-in/1: SSL handshake failure
+Feb 13 09:58:28 1d81977c9d8d haproxy[45]: 172.19.0.1:34012 [13/Feb/2023:09:58:28.286] https-in~ https-in/<NOSRV> -1/-1/-1/-1/1 503 212 - - SC-- 0/0/0/0/0 0/0 "GET /favicon.ico HTTP/1.1"
+Feb 13 09:58:34 1d81977c9d8d haproxy[45]: 172.19.0.1:33474 [13/Feb/2023:09:58:34.413] https-in/1: SSL handshake failure
+Feb 13 09:58:34 1d81977c9d8d haproxy[45]: 172.19.0.1:33488 [13/Feb/2023:09:58:34.413] https-in/1: SSL handshake failure
+Feb 13 09:58:34 1d81977c9d8d haproxy[45]: 172.19.0.1:33498 [13/Feb/2023:09:58:34.461] https-in/1: SSL handshake failure
+Feb 13 09:58:34 1d81977c9d8d haproxy[45]: 172.19.0.1:33500 [13/Feb/2023:09:58:34.468] https-in~ cadc-baldur-service/<NOSRV> 4/-1/-1/-1/5 503 212 - - SC-- 0/0/0/0/0 0/0 "GET /baldur/ HTTP/1.1"
+Feb 13 09:58:34 1d81977c9d8d haproxy[45]: 172.19.0.1:33514 [13/Feb/2023:09:58:34.496] https-in/1: SSL handshake failure
+Feb 13 09:58:34 1d81977c9d8d haproxy[45]: 172.19.0.1:33524 [13/Feb/2023:09:58:34.504] https-in~ https-in/<NOSRV> -1/-1/-1/-1/3 503 212 - - SC-- 0/0/0/0/0 0/0 "GET /favicon.ico HTTP/1.1"
+Feb 13 11:03:02 1d81977c9d8d haproxy[45]: 172.19.0.1:48622 [13/Feb/2023:11:03:02.377] https-in/1: SSL handshake failure
+Feb 13 11:03:02 1d81977c9d8d haproxy[45]: 172.19.0.1:48634 [13/Feb/2023:11:03:02.377] https-in/1: SSL handshake failure
+Feb 13 11:03:02 1d81977c9d8d haproxy[45]: 172.19.0.1:48636 [13/Feb/2023:11:03:02.477] https-in~ cadc-baldur-service/<NOSRV> 38/-1/-1/-1/39 503 212 - - SC-- 0/0/0/0/0 0/0 "GET /baldur/ HTTP/1.1"
+Feb 13 11:03:02 1d81977c9d8d haproxy[45]: 172.19.0.1:48646 [13/Feb/2023:11:03:02.540] https-in/1: SSL handshake failure
+Feb 13 11:03:02 1d81977c9d8d haproxy[45]: 172.19.0.1:48662 [13/Feb/2023:11:03:02.543] https-in~ https-in/<NOSRV> -1/-1/-1/-1/1 503 212 - - SC-- 0/0/0/0/0 0/0 "GET /favicon.ico HTTP/1.1"
+Feb 13 11:03:03 1d81977c9d8d haproxy[45]: 172.19.0.1:48676 [13/Feb/2023:11:03:03.766] https-in/1: SSL handshake failure
+Feb 13 11:03:03 1d81977c9d8d haproxy[45]: 172.19.0.1:48684 [13/Feb/2023:11:03:03.766] https-in/1: SSL handshake failure
+Feb 13 11:03:03 1d81977c9d8d haproxy[45]: 172.19.0.1:48688 [13/Feb/2023:11:03:03.818] https-in/1: SSL handshake failure
+Feb 13 11:03:03 1d81977c9d8d haproxy[45]: 172.19.0.1:48690 [13/Feb/2023:11:03:03.821] https-in~ cadc-baldur-service/<NOSRV> 1/-1/-1/-1/1 503 212 - - SC-- 0/0/0/0/0 0/0 "GET /baldur/ HTTP/1.1"
+Feb 13 11:03:03 1d81977c9d8d haproxy[45]: 172.19.0.1:48692 [13/Feb/2023:11:03:03.841] https-in/1: SSL handshake failure
+Feb 13 11:03:03 1d81977c9d8d haproxy[45]: 172.19.0.1:48694 [13/Feb/2023:11:03:03.844] https-in~ https-in/<NOSRV> -1/-1/-1/-1/3 503 212 - - SC-- 0/0/0/0/0 0/0 "GET /favicon.ico HTTP/1.1"
+START: Mon Feb 13 11:17:09 UTC 2023
+No extra certificates to configure the CA bundle found
+Feb 13 11:17:17 561f70391ae4 haproxy[45]: Proxy https-in started.
+Feb 13 11:18:20 561f70391ae4 haproxy[45]: 172.19.0.1:55202 [13/Feb/2023:11:18:20.358] https-in/1: SSL handshake failure
+Feb 13 11:18:20 561f70391ae4 haproxy[45]: 172.19.0.1:55200 [13/Feb/2023:11:18:20.358] https-in/1: SSL handshake failure
+Feb 13 11:18:20 561f70391ae4 haproxy[45]: 172.19.0.1:55224 [13/Feb/2023:11:18:20.494] https-in~ cadc-baldur-service/<NOSRV> 43/-1/-1/-1/47 503 212 - - SC-- 0/0/0/0/0 0/0 "GET /baldur/ HTTP/1.1"
+Feb 13 11:18:20 561f70391ae4 haproxy[45]: 172.19.0.1:55228 [13/Feb/2023:11:18:20.564] https-in/1: SSL handshake failure
+Feb 13 11:18:20 561f70391ae4 haproxy[45]: 172.19.0.1:55236 [13/Feb/2023:11:18:20.567] https-in~ https-in/<NOSRV> -1/-1/-1/-1/1 503 212 - - SC-- 0/0/0/0/0 0/0 "GET /favicon.ico HTTP/1.1"
+Feb 13 11:18:58 561f70391ae4 haproxy[45]: 172.19.0.1:50686 [13/Feb/2023:11:18:58.809] https-in/1: SSL handshake failure
+Feb 13 11:18:58 561f70391ae4 haproxy[45]: 172.19.0.1:50688 [13/Feb/2023:11:18:58.809] https-in/1: SSL handshake failure
+Feb 13 11:18:58 561f70391ae4 haproxy[45]: 172.19.0.1:50690 [13/Feb/2023:11:18:58.859] https-in/1: SSL handshake failure
+Feb 13 11:18:58 561f70391ae4 haproxy[45]: 172.19.0.1:50692 [13/Feb/2023:11:18:58.866] https-in~ cadc-baldur-service/<NOSRV> 3/-1/-1/-1/6 503 212 - - SC-- 0/0/0/0/0 0/0 "GET /baldur/ HTTP/1.1"
+Feb 13 11:18:58 561f70391ae4 haproxy[45]: 172.19.0.1:50698 [13/Feb/2023:11:18:58.895] https-in/1: SSL handshake failure
+Feb 13 11:18:58 561f70391ae4 haproxy[45]: 172.19.0.1:50702 [13/Feb/2023:11:18:58.907] https-in~ https-in/<NOSRV> -1/-1/-1/-1/1 503 212 - - SC-- 0/0/0/0/0 0/0 "GET /favicon.ico HTTP/1.1"
+START: Mon Feb 13 11:20:04 UTC 2023
+No extra certificates to configure the CA bundle found
+Feb 13 11:20:11 b2c439efe802 haproxy[45]: Proxy https-in started.
+START: Mon Feb 13 11:20:50 UTC 2023
+No extra certificates to configure the CA bundle found
+Feb 13 11:20:57 90dfc7316894 haproxy[45]: Proxy https-in started.
+START: Mon Feb 13 11:23:24 UTC 2023
+No extra certificates to configure the CA bundle found
+Feb 13 11:23:32 5c1c94e18366 haproxy[45]: Proxy https-in started.
+START: Mon Feb 13 11:29:05 UTC 2023
+No extra certificates to configure the CA bundle found
+START: Mon Feb 13 11:30:05 UTC 2023
+No extra certificates to configure the CA bundle found
+Feb 13 11:30:12 b70c04f58e72 haproxy[45]: Proxy https-in started.
+START: Tue Feb 14 03:32:03 UTC 2023
+No extra certificates to configure the CA bundle found
+Feb 14 03:32:11 b70c04f58e72 haproxy[45]: Proxy https-in started.
+Feb 14 04:20:13 b70c04f58e72 haproxy[45]: 172.19.0.1:52668 [14/Feb/2023:04:20:13.578] https-in/1: SSL handshake failure
+Feb 14 04:20:13 b70c04f58e72 haproxy[45]: 172.19.0.1:52670 [14/Feb/2023:04:20:13.578] https-in/1: SSL handshake failure
+Feb 14 04:20:13 b70c04f58e72 haproxy[45]: 172.19.0.1:52676 [14/Feb/2023:04:20:13.692] https-in/1: Connection closed during SSL handshake
+Feb 14 04:20:13 b70c04f58e72 haproxy[45]: 172.19.0.1:52686 [14/Feb/2023:04:20:13.739] https-in~ cadc-baldur-service/<NOSRV> 43/-1/-1/-1/47 503 212 - - SC-- 0/0/0/0/0 0/0 "GET /baldur/ HTTP/1.1"
+Feb 14 04:20:13 b70c04f58e72 haproxy[45]: 172.19.0.1:52702 [14/Feb/2023:04:20:13.810] https-in/1: SSL handshake failure
+Feb 14 04:20:13 b70c04f58e72 haproxy[45]: 172.19.0.1:52708 [14/Feb/2023:04:20:13.812] https-in~ https-in/<NOSRV> -1/-1/-1/-1/2 503 212 - - SC-- 0/0/0/0/0 0/0 "GET /favicon.ico HTTP/1.1"
+Feb 14 04:20:16 b70c04f58e72 haproxy[45]: 172.19.0.1:36580 [14/Feb/2023:04:20:16.781] https-in/1: SSL handshake failure
+Feb 14 04:20:16 b70c04f58e72 haproxy[45]: 172.19.0.1:36582 [14/Feb/2023:04:20:16.786] https-in/1: SSL handshake failure
+Feb 14 04:20:16 b70c04f58e72 haproxy[45]: 172.19.0.1:36584 [14/Feb/2023:04:20:16.789] https-in~ cadc-baldur-service/<NOSRV> 2/-1/-1/-1/3 503 212 - - SC-- 0/0/0/0/0 0/0 "GET /baldur/ HTTP/1.1"
+Feb 14 04:20:16 b70c04f58e72 haproxy[45]: 172.19.0.1:36586 [14/Feb/2023:04:20:16.822] https-in/1: SSL handshake failure
+Feb 14 04:20:16 b70c04f58e72 haproxy[45]: 172.19.0.1:36594 [14/Feb/2023:04:20:16.824] https-in~ https-in/<NOSRV> -1/-1/-1/-1/1 503 212 - - SC-- 0/0/0/0/0 0/0 "GET /favicon.ico HTTP/1.1"
+Feb 14 04:49:32 b70c04f58e72 haproxy[45]: 172.19.0.1:41622 [14/Feb/2023:04:49:32.048] https-in/1: SSL handshake failure
+Feb 14 04:49:33 b70c04f58e72 haproxy[45]: 172.19.0.1:41632 [14/Feb/2023:04:49:33.064] https-in/1: SSL handshake failure
+START: Tue Feb 14 13:45:24 UTC 2023
+No extra certificates to configure the CA bundle found
+Feb 14 13:45:31 6710520cd796 haproxy[45]: Proxy https-in started.
