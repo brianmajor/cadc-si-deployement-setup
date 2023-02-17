@@ -214,3 +214,14 @@ Feb 14 04:49:33 b70c04f58e72 haproxy[45]: 172.19.0.1:41632 [14/Feb/2023:04:49:33
 START: Tue Feb 14 13:45:24 UTC 2023
 No extra certificates to configure the CA bundle found
 Feb 14 13:45:31 6710520cd796 haproxy[45]: Proxy https-in started.
+Feb 17 05:40:56 6710520cd796 haproxy[45]: 172.19.0.1:58572 [17/Feb/2023:05:40:53.291] https-in~ cadc-minoc-service/minoc 133/0/26/3473/3634 500 231 - - ---- 0/0/0/0/0 0/0 "PUT /minoc/files/TEST1:JUNK/test-file.fits HTTP/1.1"
+Feb 17 05:45:06 6710520cd796 haproxy[45]: 172.19.0.1:58176 [17/Feb/2023:05:45:06.446] https-in~ cadc-minoc-service/minoc 71/0/1/355/428 201 205 - - ---- 0/0/0/0/0 0/0 "PUT /minoc/files/TEST1:JUNK/test-file.fits HTTP/1.1"
+Feb 17 05:57:34 6710520cd796 haproxy[45]: 172.19.0.1:37544 [17/Feb/2023:05:57:33.215] https-in~ cadc-minoc-service/minoc 81/0/0/543/1082 500 283 - - SD-- 0/0/0/0/0 0/0 "PUT /minoc/files/TEST1:JUNK/test-file.fits HTTP/1.1"
+Feb 17 05:59:07 6710520cd796 haproxy[45]: 172.19.0.1:33566 [17/Feb/2023:05:59:07.328] https-in~ cadc-minoc-service/<NOSRV> 86/-1/-1/-1/87 503 212 - - SC-- 0/0/0/0/0 0/0 "PUT /minoc/files/TEST1:JUNK/test-file.fits HTTP/1.1"
+Feb 17 05:59:21 6710520cd796 haproxy[45]: 172.19.0.1:39210 [17/Feb/2023:05:59:20.863] https-in~ cadc-minoc-service/minoc 70/0/0/568/1095 500 284 - - SD-- 0/0/0/0/0 0/0 "PUT /minoc/files/TEST1:JUNK/test-file.fits HTTP/1.1"
+Feb 17 06:03:26 6710520cd796 haproxy[45]: 172.19.0.1:48288 [17/Feb/2023:06:03:26.465] https-in~ cadc-minoc-service/<NOSRV> 68/-1/-1/-1/69 503 212 - - SC-- 0/0/0/0/0 0/0 "PUT /minoc/files/TEST1:JUNK/test-file.fits HTTP/1.1"
+Feb 17 06:03:30 6710520cd796 haproxy[45]: 172.19.0.1:48298 [17/Feb/2023:06:03:29.959] https-in~ cadc-minoc-service/<NOSRV> 65/-1/-1/-1/65 503 212 - - SC-- 0/0/0/0/0 0/0 "PUT /minoc/files/TEST1:JUNK/test-file.fits HTTP/1.1"
+Feb 17 06:03:56 6710520cd796 haproxy[45]: 172.19.0.1:43736 [17/Feb/2023:06:03:56.086] https-in~ cadc-minoc-service/<NOSRV> 57/-1/-1/-1/57 503 212 - - SC-- 0/0/0/0/0 0/0 "PUT /minoc/files/TEST1:JUNK/test-file.fits HTTP/1.1"
+Feb 17 06:33:16 6710520cd796 haproxy[45]: 172.19.0.1:57368 [17/Feb/2023:06:33:14.154] https-in~ cadc-minoc-service/minoc 107/0/0/2159/2267 500 297 - - ---- 0/0/0/0/0 0/0 "PUT /minoc/files/TEST1:JUNK/test-file.fits HTTP/1.1"
+Feb 17 06:39:01 6710520cd796 haproxy[45]: 172.19.0.1:36300 [17/Feb/2023:06:39:01.053] https-in~ cadc-minoc-service/minoc 79/0/0/529/608 201 271 - - ---- 0/0/0/0/0 0/0 "PUT /minoc/files/TEST1:JUNK/test-file.fits HTTP/1.1"
+Feb 17 06:39:38 6710520cd796 haproxy[45]: 172.19.0.1:40976 [17/Feb/2023:06:39:37.411] https-in~ cadc-minoc-service/minoc 122/0/0/60/622 403 212 - - SD-- 0/0/0/0/0 0/0 "PUT /minoc/files/TEST1:JUNK/test-file.fits HTTP/1.1"
