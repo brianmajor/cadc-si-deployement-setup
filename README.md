@@ -51,3 +51,9 @@ Github links:
 Confluence links:
 
     https://confluence.skatelescope.org/display/SRCSC/2023-01-26++SRC+ART+System+Demo+17.3
+
+
+
+
+https://repo.maven.apache.org/maven2/org/opencadc
+https://www.ivoa.net/xml/VODataService/VODataService-v1.2.xsd#ParamHTTP
