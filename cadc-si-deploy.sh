@@ -9,13 +9,13 @@ docker run -d \
 	--volume=${CONFIG_FOLDER}/postgres/logs:/logs:rw \
 	amigahub/cadc-postgresql:latest
 
-docker run -d \
-	--name minoc \
-	-p 8083:8080 \
-	--net=si \
-	--volume=${CONFIG_FOLDER}/minoc:/config:ro \
-	--volume=${DATA_FOLDER}/minoc:/data:rw \
-	images.opencadc.org/storage-inventory/minoc:0.9.0
+# docker run -d \
+# 	--name minoc \
+# 	-p 8083:8080 \
+# 	--net=si \
+# 	--volume=${CONFIG_FOLDER}/minoc:/config:ro \
+# 	--volume=${DATA_FOLDER}/minoc:/data:rw \
+# 	images.opencadc.org/storage-inventory/minoc:0.9.0
 
 docker run -d \
 	--name minoc \
