@@ -47,3 +47,9 @@ docker run -d \
     --volume=${CONFIG_FOLDER}/haproxy/certs/:/config:ro \
     --volume=${CONFIG_FOLDER}/haproxy/config:/usr/local/etc/haproxy/:rw \
     amigahub/cadc-haproxy:latest
+
+# docker run -d \
+# 	--name echo \
+# 	-p 8000:8000 \
+# 	--net=si \
+# 	echo:latest
