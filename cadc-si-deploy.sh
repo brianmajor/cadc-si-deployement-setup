@@ -1,6 +1,9 @@
 
 docker network create si
 
+CONFIG_FOLDER=/Users/abhishekghosh/Desktop/E4R-final/cadc-si-deploy/config
+HAPROXY_CA_CERT_FOLDER=/Users/abhishekghosh/Desktop/E4R-final/cadc-si-deploy/haproxy-ca-cert
+
 docker run -d \
 	--name pg10db \
 	-p 5432:5432 -p 5433:5432 \
@@ -22,7 +25,9 @@ docker run -d \
 	-p 8083:8080 \
 	--net=si \
 	--volume=${CONFIG_FOLDER}/minoc:/config:ro \
+	--volume=${HAPROXY_CA_CERT_FOLDER}/:/etc/pki/ca-trust/source/anchors/:rw \
 	images.opencadc.org/storage-inventory/minoc:0.9.0
+
 
 docker run -d \
 	--name baldur \
@@ -47,6 +52,13 @@ docker run -d \
     --volume=${CONFIG_FOLDER}/haproxy/certs/:/config:ro \
     --volume=${CONFIG_FOLDER}/haproxy/config:/usr/local/etc/haproxy/:rw \
     amigahub/cadc-haproxy:latest
+
+docker run -d \
+  --name gms \
+  --net=si \
+  -p 8086:8080 \
+  --env-file=${CONFIG_FOLDER}/gms/.env \
+  gms:latest
 
 # docker run -d \
 # 	--name echo \
