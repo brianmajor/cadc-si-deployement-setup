@@ -54,7 +54,7 @@ docker run -d \
     amigahub/cadc-haproxy:latest
 
 docker run -d \
-  --name gms \
+  --name gms.iris-iam.stfc.ac.uk \
   --net=si \
   -p 8086:8080 \
   --env-file=${CONFIG_FOLDER}/gms/.env \
