@@ -3,6 +3,8 @@ docker network create si
 
 CONFIG_FOLDER=/Users/abhishekghosh/Desktop/E4R-final/cadc-si-deploy/config
 HAPROXY_CA_CERT_FOLDER=/Users/abhishekghosh/Desktop/E4R-final/cadc-si-deploy/haproxy-ca-cert
+HAPROXY_CLIENT_CERT_FOLDER=/Users/abhishekghosh/Desktop/E4R-final/cadc-si-deploy/haproxy-client-cert
+#DATA_FOLDER=absolute path of the folder to image files
 
 docker run -d \
 	--name pg10db \
@@ -26,6 +28,15 @@ docker run -d \
 	--net=si \
 	--volume=${CONFIG_FOLDER}/minoc:/config:ro \
 	--volume=${HAPROXY_CA_CERT_FOLDER}/:/etc/pki/ca-trust/source/anchors/:rw \
+	images.opencadc.org/storage-inventory/minoc:0.9.0
+
+docker run -d \
+	--name minoc-copy \
+	-p 8081:8080 \
+	--net=si \
+	--volume=${CONFIG_FOLDER}/minoc:/config:ro \
+	--volume=${HAPROXY_CA_CERT_FOLDER}/:/etc/pki/ca-trust/source/anchors/:rw \
+#	--volume=${HAPROXY_CLIENT_CERT_FOLDER}/:/root/.ssl/:rw \ -> this line is creating some issue and docker is unable to act then
 	images.opencadc.org/storage-inventory/minoc:0.9.0
 
 
